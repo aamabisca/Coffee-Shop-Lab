@@ -1,0 +1,30 @@
+Stars = '***************************************'
+print(Stars)
+print('My Coffee and Muffin Shop')
+numcoffees = 5
+questionone = int(input('Number of coffees bought? '))
+nummuffins = 4
+questiontwo = int(input('Number of Muffins bought? '))
+numbanana = 6
+questionthree = int(input('Number of Bananabread bought? '))
+numcake = 3
+questionfour = int(input('Number of Cakepops bought? '))
+print(Stars)
+
+print(Stars)
+print('My Coffee Muffin Shop Receipt')
+print(questionone ,'Coffee at $', numcoffees ,'each: $', numcoffees*questionone)
+print(questiontwo ,'Muffins at $', nummuffins ,'each at: $', nummuffins*questiontwo)
+print(questionthree, 'Bananabread at $', numbanana ,'each at: $', numbanana*questionthree)
+print(questionfour, 'Cakepop at $', numcake ,'each at: $', numcake*questionfour)
+Coffeetot = numcoffees*questionone
+Muffintot = nummuffins*questiontwo
+Breadtot = numbanana*questionthree
+Caketot = numcake*questionfour
+Total = Muffintot + Coffeetot + Caketot + Breadtot # Total of everything together
+Tax = print('6% tax: $', 0.06 * round(Total, 2)) # Tax Total
+Unscore = '---------'
+print(Unscore)
+Final = (int(Tax) + int(Total)) # Final amount
+Finalamount = print('Total: $', (Final))
+print(Stars)
