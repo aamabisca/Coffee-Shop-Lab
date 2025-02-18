@@ -28,4 +28,5 @@ Unscore = '---------'
 print(Unscore)
 Final = (int(TTax) + int(Total)) # Final amount
 Finalamount = print('Total: $', Final)
+print('Thank you for purchasing!')
 print(Stars)
