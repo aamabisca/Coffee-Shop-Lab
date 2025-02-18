@@ -22,9 +22,10 @@ Muffintot = nummuffins*questiontwo
 Breadtot = numbanana*questionthree
 Caketot = numcake*questionfour
 Total = Muffintot + Coffeetot + Caketot + Breadtot # Total of everything together
-Tax = print('6% tax: $', 0.06 * round(Total, 2)) # Tax Total
+TTax = 0.06 * Total # 
+Tax = print('6% tax: $', round(TTax, 2)) # Tax Total
 Unscore = '---------'
 print(Unscore)
-Final = (int(Tax) + int(Total)) # Final amount
-Finalamount = print('Total: $', (Final))
+Final = (int(TTax) + int(Total)) # Final amount
+Finalamount = print('Total: $', Final)
 print(Stars)
